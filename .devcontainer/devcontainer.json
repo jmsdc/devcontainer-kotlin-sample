@@ -1,0 +1,11 @@
+{
+  "name": "webauthentication",
+  "image": "debian:12",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "jdkDistro": "open",
+      "version": "21"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  }
+}
